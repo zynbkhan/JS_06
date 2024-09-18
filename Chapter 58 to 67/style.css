@@ -1,0 +1,36 @@
+body{
+    background-color: #003366;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    text-align: center;
+
+}
+button{
+    height: 35px;
+    width: 100px;
+    text-decoration: none;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px #87ceeb;
+}
+ a:visited{
+    height: 35px;
+    width: 100px;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #333333;
+
+}
+a:link{
+    height: 35px;
+    width: 100px;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #333333;
+} 
+button:hover{
+    box-shadow: 3px 3px 3px #87ceeb;
+}

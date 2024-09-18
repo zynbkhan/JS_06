@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button class="button"><a href="/index.html">Back to list</a></button>
+
+    <h1>Mobile Phone Lookup</h1>
+
+    <p>Click on a link or image to see an alert:</p>
+
+    <a href="#" onclick="showAlert('Link clicked!')">Click here</a>
+
+
+    <!-- Question 2 -->
+    <div id="mobile-images">
+        <img class="mobile-image" src="Iphone 6 plus.jpeg" alt="iPhone 6 Plus"
+            onclick="showAlert(' This is iPhone 6 Plus !')">
+        <img class="mobile-image" src="galaxy s6.jpeg" alt="Galaxy S6 Edge Plus"
+            onclick="showAlert('This is Galaxy S6 Edge Plus !')">
+        <img class="mobile-image" src="v10.jpeg" alt="V10" onclick="showAlert(' This is V10!')">
+        <img class="mobile-image" src="huawei 8.jpeg" alt="Huawei P8" onclick="showAlert('This is Huawei P8 !')">
+    </div>
+    <!-- Question 3 -->
+    <table>
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="student-records">
+        </tbody>
+    </table>
+    <!-- Question 4 -->
+    <img class="img" src="image1.jpeg" alt="Image 1" onmouseover="this.src='image2.jpeg'"
+        onmouseout="this.src='image1.jpeg'" />
+
+         <!-- Question 5 -->
+         <p>Counter: <span id="counter">0</span></p>
+         <button onclick="increment()">Increase</button>
+         <button onclick="decrement()">Decrease</button>
+    <script src="script.js"></script>
+</body>
+
+</html>

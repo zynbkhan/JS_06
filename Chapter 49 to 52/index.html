@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button class="button"><a href="/index.html">Back to list</a></button>
+    <!-- Question 1 -->
+    <h2>Signup Form</h2>
+    <form id="signupForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+
+        <input type="password" id="password" name="password" required><br><br>
+
+        <button class="btn" type="submit">Submit</button>
+
+    </form>
+
+    <div id="formData"></div>
+
+    <!-- Question 2 -->
+    <h2>Item Details</h2>
+    <div class="content">
+        <p>Artificial intelligence (AI) is the development of computer systems that can perform tasks that typically
+            require human intelligence,such as learning, reasoning, problem-solving, and decision-making. AI is rapidly transforming various
+            industries, including healthcare, finance, and transportation. While AI offers significant advancements, it
+            also raises ethical, privacy, and employment concerns.Sources and related content
+        </p>
+        <p>More text here...</p>
+    </div>
+
+    <button class="read-more-button">Read More</button>
+
+    <!-- Question 3 -->
+    <h1>Student Records</h1>
+
+    <form id="studentForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="class">Class:</label>
+        <input type="number" id="class" required>
+        <input type="hidden" id="editIndex">
+        <button type="submit" id="submitButton">Add Student</button>
+    </form>
+
+    <form id="editForm" style="display:none;">
+        <h3>Edit Student</h3>
+        <label for="editName">Name:</label>
+        <input type="text" id="editName">
+        <label for="editClass">Class:</label>
+        <input type="number" id="editClass">
+        <button type="submit">Save Changes</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="student-records">
+        </tbody>
+    </table>
+   
+     <script src="apps.js"></script>
+</body>
+
+</html>
